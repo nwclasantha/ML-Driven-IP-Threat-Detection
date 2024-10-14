@@ -28,14 +28,7 @@ After training, the model is saved to a file along with the TF-IDF vectorizer, w
 # Prediction: 
 Once the model is trained and saved, it can be loaded for making predictions on new, unseen data. The system processes the new data similarly to the training data (cleaning, tokenizing, and transforming using the saved TF-IDF vectorizer), then passes it to the trained model to predict the likelihood of an IP being an attacker.
 
-	precision	recall	f1-score	support
-attacker	0.687103594	1	0.814536341	325
-not_attacker	1	0.006711409	0.013333333	149
-accuracy	0.687763713	0.687763713	0.687763713	0.687763713
-macro avg	0.843551797	0.503355705	0.413934837	474
-weighted avg	0.785461325	0.687763713	0.562681387	474
 ![image](https://github.com/user-attachments/assets/d276a6a2-fd1d-48e6-8511-aad86b27ba0e)
-
 
 # Generating Reports: 
 After making predictions, the system generates reports, such as a classification report to evaluate the model’s performance and an IP blacklist based on the predicted attacker IPs. These results are then saved and made available to the user.
