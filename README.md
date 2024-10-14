@@ -1,11 +1,10 @@
 # Machine Learning Workflow for IP Threat Detection
-![image](https://github.com/user-attachments/assets/64562431-ec0d-4e62-ad62-edddb98bbbab)
-
 In this machine learning process, we aim to automate the detection of malicious IP addresses by training a model on collected data and using it for real-time predictions. The system involves a series of stages, starting from data collection and cleaning to training a machine learning model and making predictions on new data. The goal is to create a reliable pipeline that identifies potential threats by analyzing features such as region, IP address usage, and previous reports. This end-to-end process ensures that the model continuously learns and evolves, providing accurate and timely threat detection for enhanced security.
 
 ![image](https://github.com/user-attachments/assets/ac7872a4-35dc-41e5-9cdf-cdb4be45e8e1)
 
 The machine learning process you are using involves several distinct stages, from data collection and preprocessing to training, evaluation, and prediction. 
+
 ![image](https://github.com/user-attachments/assets/80dfdd52-08a2-4b83-a8f1-40987e3ff3f2)
 
 # Data Collection: 
