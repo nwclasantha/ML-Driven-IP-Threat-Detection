@@ -6,6 +6,7 @@ In this machine learning process, we aim to automate the detection of malicious 
 ![image](https://github.com/user-attachments/assets/ac7872a4-35dc-41e5-9cdf-cdb4be45e8e1)
 
 The machine learning process you are using involves several distinct stages, from data collection and preprocessing to training, evaluation, and prediction. 
+![image](https://github.com/user-attachments/assets/80dfdd52-08a2-4b83-a8f1-40987e3ff3f2)
 
 # Data Collection: 
 The process begins with raw data, typically stored in a database. This data contains information about IP addresses, regions, reports, and whether the IP is associated with malicious activities. The system fetches this data and exports it into CSV format for further analysis.
